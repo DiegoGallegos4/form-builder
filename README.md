@@ -1,3 +1,9 @@
+#Installation
+
+`npm install form-builder-redux`
+
+Note: requires testing, working on it.
+
 #Form Builder
 
 Is a component that generates a form using predefined input elements. The input elements available are: 
