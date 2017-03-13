@@ -1,0 +1,38 @@
+.topcoat-text-input:{
+  background-color: #FFFFFF;
+  background-image: none;
+  border: 1px solid #e5e6e7;
+  border-radius: 1px;
+  color: inherit;
+  display: block;
+  padding: 6px 12px;
+  transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+  width: 100%;
+  font-size: 14px;
+}
+
+.list__container{
+  width: 95%;
+  list-style: none;
+  border: 1px solid #e5e6e7;
+  padding: 0px;
+  position: absolute;
+  z-index: 20;
+  background-color: #fff;
+  margin-top:34px;
+}
+
+.list__item{
+  border-radius: 1px;
+  color: inherit;
+  display: block;
+  padding: 6px 12px;
+  transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+  font-size: 14px;
+  color: black;
+}
+
+.typeahead{
+  display: flex;
+  flex: 1;
+}
