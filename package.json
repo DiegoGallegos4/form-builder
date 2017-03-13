@@ -1,5 +1,5 @@
 {
-  "name": "form-builder",
+  "name": "form-builder-redux",
   "version": "1.0.1",
   "description": "Form Builder for preexisting inputs",
   "main": "index.js",
