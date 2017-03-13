@@ -14,6 +14,17 @@ Is a component that generates a form using predefined input elements. The input 
 - [TimeInput](http://react-component.github.io/time-picker/)
 - [TypeaheadBootstrap](https://github.com/ericgio/react-bootstrap-typeahead)
 
+##Form Builder Items
+
+Form builder for line items. Some usage examples would be purchase orders, work orders and invoices where there is a main table and an items table related to it(hasMany relationships)
+
+## TODOS
+
+- [ ] Unit tests (Jest)
+- [ ] Continuous Integration (Circle Ci)
+- [ ] Extend for custom inputs
+- [ ] Documentation for FormBuilderItems 
+
 ###Props
 
 It receives the following props:
@@ -38,7 +49,7 @@ It receives the following props:
 This is an array of fields and its props that will be passed FormBuilder.
 
 Fields array example:
-```
+```javascript
 const fields = [
   {
     name: 'code',
@@ -65,7 +76,7 @@ const fields = [
 
 ####FormBuilder with React:
 
-```
+```javascript
 import React from 'react';
 import {render} from 'react-dom'
 import update from 'immutability-helper';
@@ -111,7 +122,7 @@ render(
 
 ####FormBuilder with React and Redux:
 
-```
+```javascript
 import React from 'react';
 import {render} from 'react-dom'
 import {Provider, connect} from 'react-redux';
@@ -156,7 +167,7 @@ render(
 
 Item Actions (item_actions.js)
 
-```
+```javascript
 export const update = (name, value) =>({
   type: 'FORM_UPDATE_VALUE',
   name, 
@@ -165,7 +176,7 @@ export const update = (name, value) =>({
 ```
 
 Reducer (item_reducer.js)
-```
+```javascript
 const initialState={
     item:{
         form:{
