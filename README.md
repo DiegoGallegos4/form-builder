@@ -24,6 +24,8 @@ Form builder for line items. Some usage examples would be purchase orders, work 
 - [ ] Continuous Integration (Circle Ci)
 - [ ] Extend for custom inputs
 - [ ] Documentation for FormBuilderItems 
+- [ ] Add examples
+- [ ] Webpack tests
 
 ###Props
 
