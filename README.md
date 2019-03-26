@@ -1,10 +1,10 @@
-#Installation
+# Installation
 
 `npm install form-builder-redux`
 
 Note: requires testing, working on it.
 
-#Form Builder
+# Form Builder
 
 Is a component that generates a form using predefined input elements. The input elements available are: 
 
@@ -20,7 +20,7 @@ Is a component that generates a form using predefined input elements. The input 
 - [TimeInput](http://react-component.github.io/time-picker/)
 - [TypeaheadBootstrap](https://github.com/ericgio/react-bootstrap-typeahead)
 
-##Form Builder Items
+## Form Builder Items
 
 Form builder for line items. Some usage examples would be purchase orders, work orders and invoices where there is a main table and an items table related to it(hasMany relationships)
 
@@ -33,7 +33,7 @@ Form builder for line items. Some usage examples would be purchase orders, work 
 - [ ] Add examples
 - [ ] Webpack tests
 
-###Props
+### Props
 
 It receives the following props:
 
@@ -82,7 +82,7 @@ const fields = [
 ];
 ```
 
-####FormBuilder with React:
+#### FormBuilder with React:
 
 ```javascript
 import React from 'react';
@@ -128,7 +128,7 @@ render(
 )
 ```
 
-####FormBuilder with React and Redux:
+#### FormBuilder with React and Redux:
 
 ```javascript
 import React from 'react';
