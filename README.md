@@ -52,7 +52,7 @@ It receives the following props:
 | placeholder | Empty String | placeholder html attribute |
 | inputAttributes | Empty Object | key-value pairs of input attributes (e.g placeholder, type, number)
 
-###Form Configuration File
+### Form Configuration File
 
 This is an array of fields and its props that will be passed FormBuilder.
 
